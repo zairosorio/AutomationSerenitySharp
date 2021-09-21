@@ -1,0 +1,8 @@
+com/serenity/is/demo/utils/ClaseBase.java
+ com.serenity.is.demo.utils.ClaseBase
+com/serenity/is/demo/steps/StartSharpStep.java
+ com.serenity.is.demo.steps.StartSharpStep
+com/serenity/is/demo/pageobjet/StartSharpHomePage.java
+ com.serenity.is.demo.pageobjet.StartSharpHomePage
+com/serenity/is/demo/utils/Javascript.java
+ com.serenity.is.demo.utils.Javascript
