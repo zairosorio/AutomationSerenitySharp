@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="crear reunion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-20T14:31:17" hostname="DESKTOP-U0L6TMQ" time="19.861">
+<testsuite name="crear reunion" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-09-21T18:22:18" hostname="DESKTOP-U0L6TMQ" time="19.99">
   <properties/>
-  <testcase name="ingreso" classname="crear reunion" time="19.861"/>
+  <testcase name="ingreso" classname="crear reunion" time="19.99"/>
   <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Sep 20, 2021 9:31:18 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+  <system-err><![CDATA[Sep 21, 2021 1:22:19 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Instantiating driver
 [Test worker] INFO net.serenitybdd.core.webdriver.driverproviders.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized, goog:chromeOptions: {args: [--start-maximized, --enable-automation, --test-type], extensions: []}, platform: ANY, version: }
-Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 21821
+Starting ChromeDriver 93.0.4577.63 (ff5c0da2ec0adeaed5550e6c7e98417dac77d98a-refs/branch-heads/4577@{#1135}) on port 23059
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully.
-Sep 20, 2021 9:31:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Sep 21, 2021 1:22:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
 [Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
