@@ -1,22 +1,11 @@
-import java.text.SimpleDateFormat
+pipeline {
+    agent any
 
-def dateFormat = new SimpleDateFormat("yyyyMMddHHmm")
-def date = new Date()
-def timestamp = dateFormat.format(date).toString()
-def EMAILS = "sairosorio@hotmail.com"
-
-pipeline{
-	agent any
-		stage('Run Tests') {
-			steps {
-				script {
-					bat 'hello work'
-				}
-			}
-		}
-
-
-
-
-	}
+    stages {
+        stage('Paso 1') {
+            steps {
+                sh 'gradle test'
+            }
+        }
+    }
 }
