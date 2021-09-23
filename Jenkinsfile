@@ -10,15 +10,7 @@ pipeline{
 		stage('Run Tests') {
 			steps {
 				script {
-					try {
-						bat ("gradle clean test aggregate  -Dcontext=chrome -Dwebdriver.driver=chrome -Dinjected.tags=browser:chrome")
-						echo 'TESTS IN CHROME EXECUTED SUCCESSFULLY'
-						currentBuild.result = 'SUCCESS'
-					}
-					catch(ex) {
-	    				echo 'TESTS FAILED'
-	    				currentBuild.result ='UNSTABLE'
-					}
+					echo 'hello work'
 				}
 			}
 		}
