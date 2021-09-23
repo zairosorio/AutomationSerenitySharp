@@ -7,18 +7,6 @@ def EMAILS = "sairosorio@hotmail.com"
 
 pipeline{
 	agent any
-	stages {
-		stage('Get Sources')
-		{
-		 	steps
-		 	{
-				checkout([$class: 'GitSCM', branches: [[name: "master"]],
-                doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [
-                [credentialsId: "", url:"https://github.com/zairosorio/AutomationSerenitySharp.git"]
-                ]])
-			}
-		}
-
 		stage('Run Tests') {
 			steps {
 				script {
